@@ -6,7 +6,7 @@ on:
     branches: [ master ]
 jobs:
   build:
-  env:
+   env:
     CI: true
   strategy:
     matrix:
